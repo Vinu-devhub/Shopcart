@@ -5,7 +5,7 @@ import { Col, Container, Form, FormGroup, Row } from 'reactstrap';
 import Helmet from '../components/Helmet/Helmet';
 
 import { doc, setDoc } from 'firebase/firestore';
-import { getDownloadURL, getDownloadURl, ref, uploadBytesResumable } from "firebase/storage";
+import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 import { toast } from "react-toastify";
 import { auth, db, storage } from '../firebase.config';
  
